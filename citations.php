@@ -1,3 +1,6 @@
+<?php
+$title = "Citations";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,16 +14,7 @@
 </head>
 
 <body>
-  <header>
-    <h1 id="title">Citations - INFO 2300</h1>
-
-    <nav id="menu">
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="citations.php">Citations</a></li>
-      </ul>
-    </nav>
-  </header>
+  <?php include("includes/header.php"); ?>
 
   <main>
     <h2>Citation Policy</h2>
@@ -55,9 +49,7 @@
 
   </main>
 
-  <footer>
-    <p>Contact Information: <a href="mailto:info2300@cornell.edu">info2300@cornell.edu</a>.</p>
-  </footer>
+  <?php include("includes/footer.php"); ?>
 </body>
 
 </html>
