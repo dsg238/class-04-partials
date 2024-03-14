@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+$page = 'Citations'; ?>
 
 <head>
   <meta charset="UTF-8">
@@ -11,17 +13,7 @@
 </head>
 
 <body>
-  <header>
-    <h1 id="title">Citations - INFO 2300</h1>
-
-    <nav id="menu">
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="citations.php">Citations</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <?php include('header.php'); ?>
   <main>
     <h2>Citation Policy</h2>
 
